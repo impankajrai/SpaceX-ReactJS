@@ -1,0 +1,59 @@
+  .roundBox {
+  border-radius: 10px;
+  border: 1px solid #C4C4C4;
+  padding: 2px; 
+  }
+  
+  .heading {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px; 
+    color: #202223;    
+  }
+
+
+
+  .statusSuccess {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    /* line-height: 20px; */
+    background: rgba(60, 191, 174, 0.1);
+    color: #3CBFAE;
+    border-radius: 12px;
+    padding: 2px 8px;
+    text-align:center;
+  }
+  .statusUpcomming {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    background: rgba(202, 128, 80, 0.1);
+    color:#CA8050;;
+    border-radius: 12px;
+    padding: 2px 8px;
+    text-align: center;
+  }
+  .statusFailed {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    background: rgba(176, 0, 32, 0.1);
+    color: #B00020;
+    border-radius: 12px;
+    padding: 2px 8px;
+    text-align: center;
+
+  }
+
+
+.tableRow {
+  cursor: pointer;
+}

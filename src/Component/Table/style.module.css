@@ -1,0 +1,23 @@
+.table :global(.ant-table) {
+  margin-top: 10px;
+  border: 1px solid rgba(196, 196, 196, 0.6);
+  border-radius: 5px;
+}
+.table :global(.ant-table-thead > tr > th) {
+  background-color: #EEEFF1;
+  margin: 0;
+  color: #202223;
+  border: none !important;
+  padding : 10px;
+}
+.table :global(.ant-table-row > td) {
+  padding : 10px;
+  color: #202223;
+}
+.table :global(.ant-pagination) {
+  margin-top: 30px;
+  float: left;
+}
+.table :global(.ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before) {
+  width: 0;
+}

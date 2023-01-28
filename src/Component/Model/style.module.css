@@ -1,0 +1,70 @@
+.antModal {
+    height: 974px;
+    width: 521px;
+    top: 0;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 20px 32px 32px;
+  }
+
+.missionHead{
+  display: flex;
+ width: 100%;
+ gap: 10;
+}
+.missionHead img{
+  height: 100px;
+}
+.removeMargin{
+  margin: 0;
+}
+.topContainer{
+  margin-left: 10px;
+}
+.iconContainer img{
+height: 15px;
+}
+.iconContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 65px;
+  margin: 7px 0;
+}
+
+.statusSuccess {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* line-height: 20px; */
+  background: rgba(60, 191, 174, 0.1);
+  color: #3CBFAE;
+  border-radius: 12px;
+  padding: 2px 8px;
+  text-align:center;
+}
+.statusUpcomming {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  background: rgba(202, 128, 80, 0.1);
+  color:#CA8050;;
+  border-radius: 12px;
+  padding: 2px 8px;
+  text-align: center;
+}
+.statusFailed {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  background: rgba(176, 0, 32, 0.1);
+  color: #B00020;
+  border-radius: 12px;
+  padding: 2px 8px;
+  text-align: center;
+
+}

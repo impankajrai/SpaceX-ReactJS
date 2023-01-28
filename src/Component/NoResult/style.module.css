@@ -1,0 +1,21 @@
+.nodata{
+    display: block;
+    margin: auto;
+    /* width: 183px;
+    padding-top: 10%; */
+  }
+
+  .normalText {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #505B59;
+  }
+
+  .noTextWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+  }
